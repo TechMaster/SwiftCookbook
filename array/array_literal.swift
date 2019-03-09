@@ -7,3 +7,12 @@ let arrayOfUInt8s3 = [2 as UInt8, 4, 7] // explicit for one element, inferred fo
 // An immutable array of type [String], containing ["Example", "Example", "Example"]
 let arrayOfStrings = Array(repeating: "Example",count: 3)
 print(arrayOfStrings[1])
+
+
+let dictionary = ["foo" : 4, "bar" : 6]
+// An immutable array of type [(String, Int)], containing [("bar", 6), ("foo", 4)]
+let arrayOfKeyValuePairs = Array(dictionary)
+for item in arrayOfKeyValuePairs {
+	print(item)
+}
+

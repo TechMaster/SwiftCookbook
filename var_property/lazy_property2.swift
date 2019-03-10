@@ -8,4 +8,6 @@ class InterviewTest {
 	}
 }
 let testObj = InterviewTest(name:"Tom")
+dump(testObj)
 print(testObj.greeting)
+dump(testObj)

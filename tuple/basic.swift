@@ -10,3 +10,8 @@ print(namedTuple.first)  // 1
 print(namedTuple.middle) // dos
 // And still with the index number
 print(namedTuple.2)      // 3
+
+
+let userinfo =  (name: "John", id: "OX-13")
+let (username, userid) = userinfo
+print("username = \(username), userid = \(userid)")

@@ -1,0 +1,11 @@
+func sayHello(salute name: String) {
+	print(name)
+}
+
+sayHello(salute: "Cuong")
+
+func sayHi(_ name: String) { //_ biểu thị rằng có thể bỏ qua hay ẩn đi
+	print(name)
+}
+
+sayHi("John")

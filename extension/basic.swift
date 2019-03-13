@@ -1,6 +1,18 @@
 /*
 Mở rộng mà không cần tạo class kế thừa. Chuyên để mở rộng kiểu có sẵn
 */
+extension Bool {
+	public mutating func revert() -> Bool {
+		self = !self
+		return self
+	}
+}
+var sheIsGirl = true
+print("before sheIsGirl = \(sheIsGirl)")
+print("toogle sheIsGirl = \(sheIsGirl.revert())")
+
+
+
 extension Int {
 	var square : Int {
 		return self * self

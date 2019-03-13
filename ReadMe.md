@@ -27,9 +27,12 @@ include "~/.nano/swift.nanorc"
 ```
 
 # Cảm ơn
-80% ví dụ lấy từ quyển sách này đã được sửa lại để tương thích với Swift 4.x
-[https://books.goalkicker.com/SwiftBook/](https://books.goalkicker.com/SwiftBook/)
 
-Còn lại 20% là do tôi bổ xung thêm. Trong vài tuần tới có sẽ khoảng 30% ví dụ mới.
+80% ví dụ lấy từ quyển sách này đã được sửa lại để tương thích với Swift 4.x
+[SwiftBook Goal Kicker](https://books.goalkicker.com/SwiftBook/)
+
+Còn lại 20% là do tôi bổ xung thêm. Trong vài tuần tới có sẽ khoảng 30% ví dụ mới do tôi viết
 
 Cảm ơn các tác giả trên StackOverflow. Toàn bộ code được soạn trên nano
+
+cuong@techmaster.vn

@@ -18,7 +18,7 @@ Sửa đổi file cấu hình .nanorc để highlight syntax file *.swift.
 ```
 git clone https://github.com/scopatz/nanorc.git ~/.nano
 nano ~\.nanorc
-
+```
 
 Nội dung ~\.nanorc chứa đoạn lệnh để highlight syntax file mã nguồn Swift
 ```

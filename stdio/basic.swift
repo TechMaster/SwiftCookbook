@@ -1,5 +1,3 @@
-import Foundation
-
 //Read a string, skip new line character
 let string = readLine(strippingNewline: true)!
 print(string)

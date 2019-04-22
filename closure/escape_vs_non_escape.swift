@@ -9,6 +9,7 @@ import Foundation
 class Demo {
     var result: Int!
 
+    //@non-escaping
     func getSumOf(array:[Int], handler: ((Int)->Void)) {
         //step 2
         var sum: Int = 0
@@ -38,7 +39,7 @@ class Demo2 {
     var result: Int!
 
     var completionHandler: ((Int)->Void)?
-    
+    //@escaping dùng trong trường hợp closure chạy khi hàm gọi nó đã thoát
     func getSumOf(array:[Int], handler:@escaping ((Int)->Void)) {
         //step 2
         //here I'm taking for loop just for example, in real case it'll be something else like API call
@@ -64,6 +65,7 @@ class Demo2 {
             //step 4, finishing the execution
             guard let self = self else { return }            
             self.result = sum
+            print(self)
         }
     }
     //Here we are storing the closure for future use.

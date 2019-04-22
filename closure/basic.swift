@@ -26,3 +26,13 @@ let reverse = { (name: inout String) in
 var name = "Hello"
 reverse(&name)
 print(name)
+
+//Closure variadic parameter
+let sum = { (args: Int...) -> Int in
+	var result: Int = 0
+	for item in args {
+		result += item
+	}
+	return result
+}
+print(sum(1, 2, 3, 4, 5))
